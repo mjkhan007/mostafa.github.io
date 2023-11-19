@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,12 +57,13 @@
 <body>
 
     <header>
-        <h1>SQL Database Administrator</h1>
+        <h1>Welcome to my official website</h1>
+        <h1>I am Mostafa Jubayer Khan</h1>
     </header>
 
     <nav>
-        <a href="#welcome">Welcome</a>
-        <a href="#experience">Experience</a>
+        <a href="#Home">Home</a>
+        <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
     </nav>
@@ -90,10 +91,91 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>You can reach me at your.email@example.com</p>
+        <p>You can reach me at mkhancbu@gmail.com</p>
     </section>
+<style>
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+        }
+
+        .social-radio {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+            .social-radio input[type="radio"] {
+                display: none;
+            }
+
+            .social-radio label {
+                display: inline-block;
+                margin: 0 10px;
+                cursor: pointer;
+                position: relative;
+                padding-left: 30px;
+                line-height: 20px;
+            }
+
+                .social-radio label:before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 20px;
+                    height: 20px;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                }
+
+            .social-radio input:checked + label:before {
+                background-color: #fff;
+            }
+
+        #linkedin:before {
+            content: '\f08c'; /* LinkedIn icon Unicode */
+            font-family: 'FontAwesome';
+            color: #0077b5; /* LinkedIn color */
+        }
+
+        #github:before {
+            content: '\f09b'; /* GitHub icon Unicode */
+            font-family: 'FontAwesome';
+            color: #333; /* GitHub color */
+        }
+
+        #twitter:before {
+            content: '\f099'; /* Twitter icon Unicode */
+            font-family: 'FontAwesome';
+            color: #1da1f2; /* Twitter color */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="footer">
+        <div class="social-radio">
+            <input type="radio" id="linkedin" name="social" checked>
+            <label for="linkedin"></label>
+
+            <input type="radio" id="github" name="social">
+            <label for="github"></label>
+
+            <input type="radio" id="twitter" name="social">
+            <label for="twitter"></label>
+        </div>
+    </div>
 
 </body>
+</html>
+```
+
+This example uses Font Awesome icons for LinkedIn, GitHub, and Twitter. Make sure to include the Font Awesome library in your project if you haven't already. You can customize the colors, icons, and styling according to your design preferences.
 </html>
 
 
