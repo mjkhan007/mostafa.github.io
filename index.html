@@ -1,11 +1,71 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <style>
+        /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        /* Style for the "Scroll Down" button */
+        .scroll-down {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="welcome">
+        <h2>Welcome to the Welcome Section</h2>
+        <p>This is the content of the Welcome section.</p>
+        <!-- Add more content as needed -->
+        <!-- Scroll Down Button -->
+        <div class="scroll-down" onclick="scrollToAboutMe()">Scroll Down</div>
+    </section>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>This is the content of the About Me section.</p>
+        <!-- Add more content as needed -->
+    </section>
+
+    <!-- JavaScript to handle smooth scrolling -->
+    <script>
+        function scrollToAboutMe() {
+            var aboutMeSection = document.getElementById('about-me');
+            aboutMeSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hover Background Color</title>
     <title>SQL Database Admin</title>
-    
+
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -54,8 +114,8 @@
             text-align: center;
             margin-top: 20px;
         }
-    </style> 
-   
+    </style>
+
 </head>
 
 <body>
@@ -82,7 +142,7 @@
             <h1>Welcome to my official website</h1>
             <h1>I am Mostafa Jubayer Khan</h1>
 
-            
+
             <ul>
                 <p>
                     I am a Certified Microsoft Azure Specialist and an accomplished SQL Server Database Administrator (DBA) & Support Engineer, boasting more than six years of robust professional experience dedicated to impeccable database maintenance, vigilant monitoring, proficient SQL development, and top-tier technical customer support. I am on a mission to secure a full-time role as an Azure/ Cloud Database Engineer, specializing in MS SQL Server, MySQL, PostgreSQL, and MariaDB database administration and support. I am fully equipped to merge my specialized SQL Server expertise with my unmatched aptitude for concise communication and impeccable documentation. As a self-driven and precision-focused professional, I have consistently delivered exceptional performance and unwavering accountability in my previous positions at esteemed corporate entities. I am eager to contribute my extensive experience and capabilities to your team and help drive your database operations to new heights.
@@ -2697,7 +2757,7 @@ http://www.gnu.org/licenses/gpl.html
                                                                                 <!--
                                                                                 -->
                                                                                 <rs-layer id="slider-1-slide-1-layer-1" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m,m,t,t;yo:-80px,-31px,179px,120px;" data-text="w:normal,nowrap,nowrap,nowrap;s:80,50,44,34;l:120,70,60,50;ls:5px,2px,2px,1px;fw:700;a:center,inherit,inherit,inherit;" data-frame_0="y:top;o:1;" data-frame_1="e:power4.inOut;sp:1000;sR:10;" data-frame_999="o:0;e:power4.inOut;st:w;sp:400;sR:3990;" style="z-index:5;font-family:'Merriweather';text-transform:uppercase;">
-                                                                                    Your Problem <br />Is Unique  
+                                                                                    Your Problem <br />Is Unique
                                                                                 </rs-layer>
                                                                                 <!--
 
@@ -3002,7 +3062,7 @@ http://www.gnu.org/licenses/gpl.html
                                                                         <div class="elementor-widget-container">
                                                                             As a Database Administrator, I am committed to delivering the most advanced technological solutions at optimal costs. My focus is on creating
                                                                             a database infrastructure that not only meets your unique needs but also captures and preserves every significant data moment for you and your family.
-                                                                            Through strategic and cost-effective implementations, I aim to provide a robust and efficient system designed to serve you exceptionally well. My 
+                                                                            Through strategic and cost-effective implementations, I aim to provide a robust and efficient system designed to serve you exceptionally well. My
                                                                             dedication lies in crafting a database environment that is both creative and aesthetically pleasing, ensuring that your data is not only meticulously
                                                                             organized but also presented in a visually engaging manner. Let me optimize your data management to empower you with a comprehensive and elegant solution
                                                                             tailored to your requirements.
@@ -3307,9 +3367,9 @@ http://www.gnu.org/licenses/gpl.html
                                                             technologies ignites my curiosity, compelling me to stay at the forefront of industry trends and best practices. With a steadfast commitment to the seamless integration of
                                                             data systems, I am driven to contribute meaningfully to the continuous improvement and reliability of data-driven environments.
                                                             I always strive to create a seamless and fun experience for all of my clients. It’s kinda our thing!
-                                                           
+
                                                             So shoot me a message and I will be in touch usually the same day! I cannot wait to meet you and hear all about your problems or idea.
-                                                           
+
                                                             <br />
 
                                                         </div>
@@ -3426,7 +3486,7 @@ http://www.gnu.org/licenses/gpl.html
                                                                                         <option value="Disaster Recovery">DR</option>
                                                                                         <option value="On Premises">Commercial</option>
                                                                                         <option value="Backup & Restore">Wedding</option>
-                                                                                       
+
                                                                                     </select>
                                                                                 </span>
                                                                             </label>
