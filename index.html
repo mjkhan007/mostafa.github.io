@@ -59,111 +59,111 @@
 </head>
 
 <body>
+    <head>
+        <section id="home" style="display:none;">
+            <h2>Home Section</h2>
+            <!-- Add content for the home section -->
+            <p>This is the home section of the website.</p>
+        </section>
 
-    <section id="home" style="display:none;">
-        <h2>Home Section</h2>
-        <!-- Add content for the home section -->
-        <p>This is the home section of the website.</p>
-    </section>
+        <section id="home" style="display:none;">
+            <h2>Home Section</h2>
+            <!-- Add content for the home section -->
+            <p>This is the home section of the website.</p>
 
-    <section id="home" style="display:none;">
-        <h2>Home Section</h2>
-        <!-- Add content for the home section -->
-        <p>This is the home section of the website.</p>
-
-    </section>
-   
+        </section>
 
 
-    <section id="skills" class="skills">
-        <header>
-            <h1>Welcome to my official website</h1>
-            <h1>I am Mostafa Jubayer Khan</h1>
 
-       
-            <ul>
-                <p>
-                    I am a Certified Microsoft Azure Specialist and an accomplished SQL Server Database Administrator (DBA) & Support Engineer, boasting more than six years of robust professional experience dedicated to impeccable database maintenance, vigilant monitoring, proficient SQL development, and top-tier technical customer support. I am on a mission to secure a full-time role as an Azure/ Cloud Database Engineer, specializing in MS SQL Server, MySQL, PostgreSQL, and MariaDB database administration and support. I am fully equipped to merge my specialized SQL Server expertise with my unmatched aptitude for concise communication and impeccable documentation. As a self-driven and precision-focused professional, I have consistently delivered exceptional performance and unwavering accountability in my previous positions at esteemed corporate entities. I am eager to contribute my extensive experience and capabilities to your team and help drive your database operations to new heights.
+        <section id="skills" class="skills">
+            <header>
+                <h1>Welcome to my official website</h1>
+                <h1>I am Mostafa Jubayer Khan</h1>
 
-                </p>
 
-                <div class="scroll-down" onclick="scrollToAboutMe()">Scroll Down</div>
-            </ul>
-        </header>
+                <ul>
+                    <p>
+                        I am a Certified Microsoft Azure Specialist and an accomplished SQL Server Database Administrator (DBA) & Support Engineer, boasting more than six years of robust professional experience dedicated to impeccable database maintenance, vigilant monitoring, proficient SQL development, and top-tier technical customer support. I am on a mission to secure a full-time role as an Azure/ Cloud Database Engineer, specializing in MS SQL Server, MySQL, PostgreSQL, and MariaDB database administration and support. I am fully equipped to merge my specialized SQL Server expertise with my unmatched aptitude for concise communication and impeccable documentation. As a self-driven and precision-focused professional, I have consistently delivered exceptional performance and unwavering accountability in my previous positions at esteemed corporate entities. I am eager to contribute my extensive experience and capabilities to your team and help drive your database operations to new heights.
 
-        <script>
-            function scrollToAboutMe() {
-                var aboutMeSection = document.getElementById('home');
-                aboutMeSection.scrollIntoView({ behavior: 'smooth' });
-            }
-        </script>
-       
-    </section>
+                    </p>
 
-    <section id="contact">
-    </section>
-    <style>
-        .footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            position: fixed;
-            width: 100%;
-        }
+                    <div class="scroll-down" onclick="scrollToAboutMe()">Scroll Down</div>
+                </ul>
+            </header>
 
-        .social-radio {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-        }
+            <script>
+                function scrollToAboutMe() {
+                    var aboutMeSection = document.getElementById('home');
+                    aboutMeSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            </script>
 
-            .social-radio input[type="radio"] {
-                display: none;
+        </section>
+
+        <section id="contact">
+        </section>
+        <style>
+            .footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 20px;
+                position: fixed;
+                width: 100%;
             }
 
-            .social-radio label {
-                display: inline-block;
-                margin: 0 10px;
-                cursor: pointer;
-                position: relative;
-                padding-left: 30px;
-                line-height: 20px;
+            .social-radio {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
             }
 
-                .social-radio label:before {
-                    content: '';
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                    width: 20px;
-                    height: 20px;
-                    border: 2px solid #fff;
-                    border-radius: 50%;
+                .social-radio input[type="radio"] {
+                    display: none;
                 }
 
-            .social-radio input:checked + label:before {
-                background-color: #fff;
+                .social-radio label {
+                    display: inline-block;
+                    margin: 0 10px;
+                    cursor: pointer;
+                    position: relative;
+                    padding-left: 30px;
+                    line-height: 20px;
+                }
+
+                    .social-radio label:before {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 20px;
+                        height: 20px;
+                        border: 2px solid #fff;
+                        border-radius: 50%;
+                    }
+
+                .social-radio input:checked + label:before {
+                    background-color: #fff;
+                }
+
+            #linkedin:before {
+                content: '\f08c'; /* LinkedIn icon Unicode */
+                font-family: 'FontAwesome';
+                color: #0077b5; /* LinkedIn color */
             }
 
-        #linkedin:before {
-            content: '\f08c'; /* LinkedIn icon Unicode */
-            font-family: 'FontAwesome';
-            color: #0077b5; /* LinkedIn color */
-        }
+            #github:before {
+                content: '\f09b'; /* GitHub icon Unicode */
+                font-family: 'FontAwesome';
+                color: #333; /* GitHub color */
+            }
 
-        #github:before {
-            content: '\f09b'; /* GitHub icon Unicode */
-            font-family: 'FontAwesome';
-            color: #333; /* GitHub color */
-        }
-
-        #twitter:before {
-            content: '\f099'; /* Twitter icon Unicode */
-            font-family: 'FontAwesome';
-            color: #1da1f2; /* Twitter color */
-        }
-    </style>
+            #twitter:before {
+                content: '\f099'; /* Twitter icon Unicode */
+                font-family: 'FontAwesome';
+                color: #1da1f2; /* Twitter color */
+            }
+        </style>
     </head>
 
     <script>
@@ -2528,7 +2528,7 @@ http://www.gnu.org/licenses/gpl.html
                                         <nav class="main-menu main_menu_container menu_line_enable">
                                             <ul id="menu-pritoreza-menu-5" class="menu">
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2990">
-                                                    <a href="http://pritoreza.com/home-03/">
+                                                    <a href="https://mjkhan007.github.io/mostafa.github.io/">
                                                         <span>Home</span>
                                                     </a>
                                                 </li>
@@ -2543,38 +2543,38 @@ http://www.gnu.org/licenses/gpl.html
                                                     </a>
                                                     <ul class="sub-menu">
                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3160">
-                                                            <a href="https://pritoreza.com/fashion/">
-                                                                <span>Fashion</span>
+                                                            <a href="https://mjkhan007.github.io/mostafa.github.io/">
+                                                                <span>Performace Tuning</span>
                                                             </a>
                                                         </li>
                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3155">
-                                                            <a href="https://pritoreza.com/wedding/">
-                                                                <span>Wedding</span>
+                                                            <a href="https://mjkhan007.github.io/mostafa.github.io/">
+                                                                <span>Database Design</span>
                                                             </a>
                                                         </li>
                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3159">
-                                                            <a href="https://pritoreza.com/new-born/">
-                                                                <span>New Born</span>
+                                                            <a href="https://mjkhan007.github.io/mostafa.github.io/">
+                                                                <span>HA&DR</span>
                                                             </a>
                                                         </li>
                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3157">
-                                                            <a href="https://pritoreza.com/family/">
-                                                                <span>Family</span>
+                                                            <a href="https://mjkhan007.github.io/mostafa.github.io/">
+                                                                <span>ETL</span>
                                                             </a>
                                                         </li>
                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3156">
-                                                            <a href="https://pritoreza.com/commercial/">
-                                                                <span>Commercial</span>
+                                                            <a href="https://mjkhan007.github.io/mostafa.github.io/">
+                                                                <span>Identify Anomaly</span>
                                                             </a>
                                                         </li>
                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3158">
-                                                            <a href="https://pritoreza.com/portrait/">
-                                                                <span>Portrait</span>
+                                                            <a href="https://mjkhan007.github.io/mostafa.github.io/">
+                                                                <span>Migration</span>
                                                             </a>
                                                         </li>
                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3154">
                                                             <a href="https://pritoreza.com/head-shot/">
-                                                                <span>Head Shot</span>
+                                                                <span>Backup &Aacute; Restore</span>
                                                             </a>
                                                         </li>
                                                     </ul>
